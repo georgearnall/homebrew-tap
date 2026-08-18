@@ -4,7 +4,6 @@ class SpaceliftNotifier < Formula
   url "https://github.com/georgearnall/spacelift-notifier.git",
       tag:      "v0.1.0",
       revision: "8cfe1131747885095721bcbd2d36494764a28a1a"
-  version "0.1.0"
 
   depends_on "go" => :build
 
