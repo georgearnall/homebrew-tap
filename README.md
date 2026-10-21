@@ -3,7 +3,7 @@
 Personal Homebrew tap for georgearnall's CLI tools.
 
 ```
-brew install georgearnall/tap/spacelift-notifier
+brew install georgearnall/tap/spacewatch
 ```
 
 ## Releasing a new version
