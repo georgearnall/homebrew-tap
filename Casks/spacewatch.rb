@@ -6,25 +6,25 @@ cask "spacewatch" do
     end
   end
 
-  version "0.4.0"
+  version "0.5.0"
 
   on_macos do
     on_arm do
-      sha256 "db9a69afec8129a30edb904f58df9e009fa87f3b3f933aeb4bad0d04b748d31d"
+      sha256 "4359df20ec9939d4e854234c6066338c846fb7036bf379cc45ecf5efb354953e"
       url "https://github.com/georgearnall/spacewatch/releases/download/v#{version}/spacewatch_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "934201d1521fb5deafcec4a1da779d26f26e585b8907516ba117ced8f603faa5"
+      sha256 "baeecbe691edbb6a5f2a447b4035967e3d3a478aeee79dc85a0f4350da80a0fe"
       url "https://github.com/georgearnall/spacewatch/releases/download/v#{version}/spacewatch_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "01e35f4ed8a49e1c7be51a7b1de61efc974e2bfc48f5d3e2ee8ba6eac0b440ba"
+      sha256 "e53122070e490b55e6e1132371bc08a16f723c3e28025068160c4632b1e7b01c"
       url "https://github.com/georgearnall/spacewatch/releases/download/v#{version}/spacewatch_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "643bbb00c09b913f7e1de3e25f4240982ed391d3dca8c7c22d252e826741971b"
+      sha256 "64fd54c6e11c00b9518ce54926b2cd7949a1761b40500cd3b72cbd7ceb83afdd"
       url "https://github.com/georgearnall/spacewatch/releases/download/v#{version}/spacewatch_#{version}_linux_amd64.tar.gz"
     end
   end
